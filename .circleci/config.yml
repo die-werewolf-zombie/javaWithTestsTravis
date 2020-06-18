@@ -24,7 +24,7 @@ jobs:
     steps:
       - checkout
 
-      - run: mvn test
+      - run: mvn verify
 
       - store_test_results:
           path: test-results
