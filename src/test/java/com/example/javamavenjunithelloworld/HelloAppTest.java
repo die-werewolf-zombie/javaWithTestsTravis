@@ -58,7 +58,7 @@ public class HelloAppTest {
     
 /*fail test   */
     @Test
-    public void testBogusArgument() {
+    public void testBogusArgument2() {
         String[] args = {"bicycle"};
             fail("Unreachable.");
     }
