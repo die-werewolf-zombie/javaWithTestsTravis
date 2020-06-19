@@ -55,6 +55,13 @@ public class HelloAppTest {
             assertThat(e.getStatus(), is(HelloApp.EXIT_STATUS_PARAMETER_NOT_UNDERSTOOD));
         }
     }
+    
+ ##fail test   
+    @Test
+    public void testBogusArgument() {
+        String[] args = {"bicycle"};
+            fail("Unreachable.");
+    }
 
     @Test
     public void testTooHighArgument() {
