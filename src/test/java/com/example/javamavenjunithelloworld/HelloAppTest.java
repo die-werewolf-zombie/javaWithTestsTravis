@@ -56,7 +56,7 @@ public class HelloAppTest {
         }
     }
     
- ##fail test   
+/*fail test   */
     @Test
     public void testBogusArgument() {
         String[] args = {"bicycle"};
