@@ -41,7 +41,7 @@ public class HelloTest {
         hi.setTimes(3);
         hi.sayHello(stream);
 
-        // Does it say "Hello!" three times?
+        // Does it say "Hello!" three times?  sfsdf
         String goal = String.format("%1$s%2$s%1$s%2$s%1$s%2$s", Hello.HELLO, System.lineSeparator());
         assertThat(os.toString(), is(equalTo(goal)));
     }
